@@ -5,7 +5,7 @@ const fecha = document.querySelector('.fecha');
 document.addEventListener('DOMContentLoaded',()=>{
     mostrarMenu();
     cerrarMenu();
-    fechaActual();
+    
 });
 
 function mostrarMenu(){
@@ -34,7 +34,3 @@ function cambioSeccion(seccion){
     })
 }
 
-/*function fechaActual(){
-    let fechaHoy = new Date().getFullYear();
-    fecha.textContent = fechaHoy;
-}*/
